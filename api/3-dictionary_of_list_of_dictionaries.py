@@ -34,7 +34,8 @@ def main():
         username = user.get("username")
         todos = fetch_user_todos(user_id)
         all_users_data[user_id] = [
-            {"username": username, "task": task.get("title"), "completed": task.get("completed")}
+            {"username": username, "task": task.get("title"), "completed":\
+task.get("completed")}
             for task in todos
         ]
 
