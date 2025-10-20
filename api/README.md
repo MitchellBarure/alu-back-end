@@ -1,0 +1,1 @@
+This directory contains Python scripts that interact with a REST API to fetch and export employee TODO list data.
