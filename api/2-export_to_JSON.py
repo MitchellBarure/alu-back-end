@@ -34,7 +34,8 @@ def export_to_json(employee_id, username, todos):
     Export all TODO list tasks to a JSON file named '<USER_ID>.json'.
     Format:
     { "USER_ID": [
-        {"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": "USERNAME"},
+        {"task": "TASK_TITLE", "completed": TASK_COMPLETED_STATUS, "username": 
+"USERNAME"},
         ...
     ]}
     """
